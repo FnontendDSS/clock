@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+  
+  <div class="tabpanel">
+    <div class="tabpanel__links">
+      <a href="#!" class="active">Часы</a>
+      <a href="#!">Секундомер</a>
+    </div>
+    <div class="tabpanel__items">
+      <div class="item active">
+        <div class="arrowclock">
+          <div class="arrowclock-number">
+            <div class="arrowclock-number__num num12">12</div>
+            <div class="arrowclock-number__num num3">3</div>
+            <div class="arrowclock-number__num num6">6</div>
+            <div class="arrowclock-number__num num9">9</div>
+            <div class="arrowclock-number__arr num1-7"></div>
+            <div class="arrowclock-number__arr num2-8"></div>
+            <div class="arrowclock-number__arr num4-10"></div>
+            <div class="arrowclock-number__arr num5-11"></div>
+          </div>
+          <div class="arrH"></div>
+          <div class="arrM"></div>
+          <div class="arrS"></div>
+        </div>
+        <div class="numberclock">
+          <div class="numberclock-item">
+            <div class="dot dotH"></div>
+            <svg>
+              <circle cy="70" cx="70" r="70"></circle>
+              <circle cy="70" cx="70" r="70" class="HH"></circle>
+            </svg>
+            <div class="numberclock-item__num numH">00</div>
+          </div>
+          <div class="numberclock-item">
+            <div class="dot dotM"></div>
+            <svg>
+              <circle cy="70" cx="70" r="70"></circle>
+              <circle cy="70" cx="70" r="70" class="MM"></circle>
+            </svg>
+            <div class="numberclock-item__num numM">00</div>
+          </div>
+          <div class="numberclock-item">
+            <div class="dot dotS"></div>
+            <svg>
+              <circle cy="70" cx="70" r="70"></circle>
+              <circle cy="70" cx="70" r="70" class="SS"></circle>
+            </svg>
+            <div class="numberclock-item__num numS">00</div>
+          </div>
+        </div>
+      </div>
+      <div class="item">
+        <div class="numberclock">
+          <div class="numberclock-item">
+            <div class="dot stopwatch-dotH"></div>
+            <svg>
+              <circle cy="70" cx="70" r="70"></circle>
+              <circle cy="70" cx="70" r="70" class="stopwatch-HH"></circle>
+            </svg>
+            <div class="numberclock-item__num stopwatch-numH">00</div>
+          </div>
+          <div class="numberclock-item">
+            <div class="dot stopwatch-dotM"></div>
+            <svg>
+              <circle cy="70" cx="70" r="70"></circle>
+              <circle cy="70" cx="70" r="70" class="stopwatch-MM"></circle>
+            </svg>
+            <div class="numberclock-item__num stopwatch-numM">00</div>
+          </div>
+          <div class="numberclock-item">
+            <div class="dot stopwatch-dotS"></div>
+            <svg>
+              <circle cy="70" cx="70" r="70"></circle>
+              <circle cy="70" cx="70" r="70" class="stopwatch-SS"></circle>
+            </svg>
+            <div class="numberclock-item__num stopwatch-numS">00</div>
+          </div>
+        </div>
+        <div class="stopwatch-controllers">
+          <button class="btn start">start</button>
+          <button class="btn result">result</button>
+        </div>
+        <div class="stopwatch-result">
+          <p>00:00:00</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  
+  <script src="js/main.js"></script>
+</body>
+</html>
